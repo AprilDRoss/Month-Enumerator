@@ -1,10 +1,12 @@
 package com.example;
 
-public enum Month {
-    JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER
-}
+public class Month {
 
+    public enum Month {
+        JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER
+    }
 
+    Month month;
 
     private String[] englishName = new String[]{"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
 
@@ -59,8 +61,7 @@ public enum Month {
 
 
     }
-
-
+}
 
 
 
